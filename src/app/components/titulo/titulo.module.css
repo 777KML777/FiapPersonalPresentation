@@ -1,0 +1,9 @@
+.titulo {
+    color: var(--neutro-5);
+
+    font-family: var(--fonte);
+    font-size: 2rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 3rem;
+}

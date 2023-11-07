@@ -1,0 +1,32 @@
+.menu {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 2rem 0;
+
+    border-bottom: 1px solid var(--neutro-2);
+    background: var(--neutro-0);
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.06);
+}
+
+.opcoes {
+    display: flex;
+    gap: 3rem;
+
+    margin: 0 auto;
+    list-style: none;
+}
+
+.link {
+    color: var(--neutro-5);
+    text-align: center;
+    text-decoration: none;
+
+    text-transform: uppercase;
+    font-family: var(--fonte);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+
+    cursor: pointer;
+}
