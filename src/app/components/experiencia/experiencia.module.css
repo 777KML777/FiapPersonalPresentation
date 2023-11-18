@@ -1,0 +1,61 @@
+.container {
+    display: flex;
+    width: 22.5rem;
+    min-height: 7rem;
+    padding: 1rem;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    border-radius: 0.5rem;
+    border: 1px solid var(--neutro-3);
+    background: var(--neutro-0);
+
+    box-shadow: 2px 2px 2px 0px rgba(0, 0, 0, 0.06);
+}
+
+.titulo {
+    color: var(--neutro-5);
+
+    font-family: var(--fonte);
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.nome {
+    color: var(--neutro-5);
+
+    font-family: var(--fonte);
+    font-size: 0.75rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1.5rem;
+}
+
+.lista {
+    list-style-type: circle;
+    list-style-position: inside;
+}
+
+.atividade {
+
+    color: var(--neutro-5);
+
+    font-family: var(--fonte);
+    font-size: 0.875rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 2rem;
+}
+
+.data {
+    color: var(--neutro-5);
+    align-self: flex-end;
+
+    font-family: var(--fonte);
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 1rem;
+}

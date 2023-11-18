@@ -1,0 +1,45 @@
+.container {
+    display: flex;
+    width: 30rem;
+    align-items: center;
+    border-radius: 0.5rem;
+    gap: .5rem;
+    border: 1px solid var(--neutro-4);
+    background: var(--neutro-0);
+    overflow: hidden;
+
+    box-shadow: 4px 4px 4px 0px rgba(0, 0, 0, 0.06);
+}
+
+.identificacao {
+    display: flex;
+    height: max-content;
+    padding: 0.5rem 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-right: 1px solid var(--neutro-4);
+    background: var(--cor-primaria);
+}
+
+.nome {
+    color: var(--neutro-0);
+    text-align: center;
+    font-family: var(--fonte);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 1.5rem;
+}
+
+.texto{
+    border: none;
+    outline: none;
+    width: 100%;
+    margin-right: .5rem;
+
+    color: var(--neutro-5);
+    font-family: var(--fonte);
+    font-style: normal;
+    font-weight: 700;
+    line-height: 2rem;
+}
