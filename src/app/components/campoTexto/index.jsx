@@ -6,7 +6,7 @@ export default function CampoTexto(props) {
             <div className={styles.identificacao}>
                 <p className={styles.nome}>{props.nome}</p>
             </div>
-            <input type="text" className={styles.texto} disabled={props.desativado}/>
+            <input value={props?.value} type="text" className={styles.texto} disabled={props.desativado}/>
         </div>
 
     )
